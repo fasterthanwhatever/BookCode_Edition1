@@ -1,0 +1,9 @@
+yay libtiff5
+
+
+
+conda env create -f environment.yml
+
+conda remove --name bmcp --all
+
+conda env update -f environment.yml
